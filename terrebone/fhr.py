@@ -175,7 +175,7 @@ def write_intermediate(curr_index):
         if not os.path.exists(dir_intermediate):
             Path(dir_intermediate).mkdir(parents=True, exist_ok=True)
         inter_file_name = r"Intermediate__" + datetime.datetime.now().strftime("%H%M%S") + ".xlsx"
-        df.to_excel(inter_file_name)
+        df.to_excel(os.path.join(dir_intermediate, inter_file_name))
 
 if __name__ == "__main__":
     print("Process Started")
