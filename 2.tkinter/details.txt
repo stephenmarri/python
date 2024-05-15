@@ -1,0 +1,14 @@
+[
+    {
+        "value": "stephenmarri7@gmail.com",
+        "button_text": "Copy Email"
+    },
+    {
+        "value": "+1(409)365-6068",
+        "button_text": "Copy Phone"
+    },
+    {
+        "value": "s$Remus24",
+        "button_text": "Copy Pwd"
+    }
+]
